@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev src/server.js"
+    "dev": "ts-node-dev src/server.ts"
   },
-  "author": "",
+  "author": "", 
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
