@@ -1,144 +1,170 @@
-<h4 align="center">
-<img src=".github/logo.png" width="250px" /><br>
- <b>Coleta de resíduos orgânicos e inorgânicos</b> ♻️🔋
+<h1 align="center">
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/logo.svg" width="250px" />
+</h1>
+
+<h4 align="center"> 
+	:heavy_check_mark:  NextLevelWeek 1.0 🚀 Done! :heavy_check_mark:
 </h4>
-<p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ialexanderbrito/ecoleta.svg">
+<p align="center">	
+<a href="https://www.codacy.com/manual/ronylucca/ecoleta?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ronylucca/ecoleta&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/43a25c77fd4a4101a4ecc0d3df303a1e"/></a>
+	
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/ronylucca/ecoleta">
+	
+  <a href="https://www.linkedin.com/in/ronylucca/">
+    <img alt="Made by ronylucca" src="https://img.shields.io/badge/made%20by-ronylucca-%2304D361">
+  </a>
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/ialexanderbrito/ecoleta.svg">
+  <a aria-label="Completed" href="https://nextlevelweek.com/aulas/booster/1/edicao/1">
+    <img src="https://img.shields.io/badge/NLW-done-brightgreen?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="></img>
+  </a>
   
-  <a href="https://github.com/ialexanderbrito/ecoleta/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ialexanderbrito/ecoleta.svg"></a>
+  <a href="https://github.com/ronylucca/ecoleta/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/ronylucca/ecoleta">
+  </a>
 
-  <a href="https://github.com/ialexanderbrito/be-the-hero/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/ialexanderbrito/ecoleta.svg"></a>
-    
-   <img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/ialexanderbrito/ecoleta?label=blue">
-    
-  <a href="https://rocketseat.com.br">
-    <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-blueviolet"></a>
-    <img alt="License" src="https://img.shields.io/badge/license-MIT-blueviolet">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+   <a href="https://github.com/ronylucca/ecoleta/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/ronylucca/ecoleta?style=social">
+  </a>
+</p>
+<p align="center">
+<a href="#" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+</p>
+<p align="center">
+  <a href="#-nlw">Next Level Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-use">How to use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">How to contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
 </p>
 
-<br>
+## :information_source: What's Next Level Week?
 
-### :rocket: Tecnologias usadas
+NLW is a practical week with lots of code, challenges, networking and a single objective: to take you to the next level.
+Through our method you will learn new tools, learn about new technologies and discover hacks that will boost your career.
+An online and completely free event that will help you take the next step in your evolution as a dev.
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+### Days
+- Dia 1: Acelerando sua evolução 01/06 - :heavy_check_mark:
+- Dia 2: Olhando para as oportunidades 02/06 - :heavy_check_mark:
+- Dia 3: A escolha da Stack 03/06 - :heavy_check_mark:
+- Dia 4: Até 2 anos em 2 meses 04/06 - :heavy_check_mark:
+- Dia 5: Milha extra 05/06 - :heavy_check_mark:
 
-- [Node.js](https://nodejs.org/en/)
-- [Expo](https://expo.io/)
-- [Express](https://expressjs.com/pt-br/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+## 💻 Project
 
-Extras:
+Ecoleta is a project developed based on international environment week. 
+That aims to connect people to companies that collect specific waste such as light bulbs, batteries, cooking oil, etc.
 
-- Main Libs
-  - [Express](https://expressjs.com/pt-br/)
-  - [KnexJS](http://knexjs.org/)
-  - [SQLite3](https://www.sqlite.org/index.html)
-  - [Axios](https://github.com/axios/axios)
-  - [Leaflet](https://leafletjs.com/)
-  - [Expo Google Fonts](https://github.com/expo/google-fonts)
-  - [Picker Select](https://github.com/lawnstarter/react-native-picker-select)
-  - [Multer](https://github.com/expressjs/multer)
-  - [Celebrate](https://github.com/arb/celebrate)
-  
-- Estilos
+<h1 align="center">
+    <img alt="Example" title="Example" src=".github/capa.svg" width="500px" />
+</h1>
 
-  - [EditorConfig](https://editorconfig.org/)
-  - [ESLint](https://eslint.org/)
-  - [Prettier](https://prettier.io/)
 
-### 💻 Demo Web
+## :rocket: Technologies
 
-[Visitar o site](https://ecoleta-oficial.netlify.app/)
+This project was developed with the following technologies:
 
-### 📱 App
+- [Node.js][nodejs]
+- [TypeScript][typescript]
+- [React][reactjs]
+- [React Native][rn]
+- [Expo][expo]
 
-[Download para Android](https://github.com/ialexanderbrito/ecoleta/releases/tag/1.0.0)
+## 🔖 Layout
 
-### 💻 Projeto
+To access the layout use [Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/).
 
-<b>Ecoleta</b> é uma forma de conectar empresas e entidades de coleta de resíduos orgânicos e inorgânicos as pessoas que precisam descartar seus resíduos de maneira ecológica.
+## :information_source: How To Use
 
-### ⚙ Como rodar este projeto
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js][nodejs] + [Yarn][yarn] installed on your computer.
 
-Podemos considerar este projeto como sendo divido em três partes:
+From your command line:
 
-1. Backend
-2. Frontend
-3. Mobile
-
-<b>💡 Tanto o Frontend quanto o Mobile precisam que o Backend esteja sendo executado para funcionar.</b>
-
-### Pré-requisitos
-
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-
-<b>[Git](https://git-scm.com)</b>
-
-<b>[Node.js](https://nodejs.org/en/)</b>
-
-E também será preciso um editor, eu indico o <b>[VSCode](https://code.visualstudio.com/)</b>
-
-### 🧭 Rodando o Backend
+### Install API 
 
 ```bash
-# Clone este repositório
-$ git clone https://github.com/ialexanderbrito/ecoleta
+# Clone this repository
+$ git clone https://github.com/ronylucca/ecoleta
 
-# Acesse a pasta do projeto no terminal/cmd
-$ cd ecoleta
+# Go into the repository
+$ cd NLW-1.0/backend
 
-# Vá para a pasta Backend
-$ cd backend
+# Install dependencies
+$ yarn install
 
-# Instale as dependências
-$ npm install ou yarn add
+# Run Migrates
+$ yarn knex:migrate
 
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev:server ou yarn dev
+# Run Seeds
+$ yarn knex:seed
 
-# O servidor inciará na porta:3333 - acesse http://localhost:3333 
+# Start server
+$ yarn dev
+
+# running on port 3333
 ```
 
-### 🧭 Rodando o Frontend
+### Install Front-end
 
 ```bash
-# Clone este repositório
-$ git clone https://github.com/ialexanderbrito/ecoleta
+# Clone this repository
+$ git clone https://github.com/ronylucca/ecoleta
 
-# Acesse a pasta do projeto no seu terminal/cmd
-$ cd ecoleta
+# Go into the repository
+$ cd NLW-1.0/frontent
 
-# Vá para a pasta da aplicação FrontEnd
-$ cd frontend
+# Install dependencies
+$ yarn install
 
-# Instale as dependências
-$ npm install ou yarn add
+# Run
+$ yarn start
 
-# Execute a aplicação
-$ npm start ou yarn start
-
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+# running on port 3000
 ```
 
-### :recycle: Como contribuir
+### Install Mobile
 
-- Fork esse repositório;
-- Crie uma branch com a sua feature: `git checkout -b my-feature`
-- Commit suas mudanças: `git commit -m 'feat: My new feature'`
-- Push a sua branch: `git push origin my-feature`
+```bash
+# Clone this repository
+$ git clone https://github.com/ronylucca/ecoleta
 
-Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+# Go into the repository
+$ cd NLW-1.0/mobile
 
-### :mortar_board: Quem ministrou?
+# Install dependencies
+$ yarn install
 
-A Next Level Week foi ministrada pelo [Diego Fernandes](https://github.com/diego3g)
+# Run
+$ yarn start
 
-### :memo: Licença
+# Expo will open, just scan the qrcode on terminal or expo page
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+# If some problem with fonts, execute:
+$ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
+
+```
+
+## 🤔 How to contribute
+
+-  Make a fork;
+-  Create a branch with your feature: `git checkout -b my-feature`;
+-  Commit changes: `git commit -m 'feat: My new feature'`;
+-  Make a push to your branch: `git push origin my-feature`.
+
+After merging your receipt request to done, you can delete a branch from yours.
+
+## :memo: License
+
+This project is under the MIT license. See the [LICENSE](https://github.com/ronylucca/ecoleta/blob/master/LICENSE) for details.
+
+Made with ♥ by Rony de Lucca :wave: [Get in touch!](https://www.linkedin.com/in/ronylucca/)
+
+[nodejs]: https://nodejs.org/
+[typescript]: https://www.typescriptlang.org/
+[expo]: https://expo.io/
+[reactjs]: https://reactjs.org
+[rn]: https://facebook.github.io/react-native/
+[yarn]: https://yarnpkg.com/
