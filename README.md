@@ -156,7 +156,7 @@ After merging your receipt request to done, you can delete a branch from yours.
 
 This project is under the MIT license. See the [LICENSE](https://github.com/ronylucca/ecoleta/blob/master/LICENSE) for details.
 
-Made with ♥ by Rony de Lucca :wave: [Get in touch!](https://www.linkedin.com/in/ronylucca/)
+Made with ♥  by Rony de Lucca :wave: [ Get in touch!](https://www.linkedin.com/in/ronylucca/)
 
 [nodejs]: https://nodejs.org/
 [typescript]: https://www.typescriptlang.org/
