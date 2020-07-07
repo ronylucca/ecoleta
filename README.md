@@ -71,7 +71,7 @@ This project was developed with the following technologies:
 
 ## 🔖 Layout
 
-To access the layout use [Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/).
+To access the layout use [Figma](https://www.figma.com/file/nH5n6Vx80M5uXzVNH3ceev/Ecoleta-NLW01?node-id=0%3A1).
 
 ## :information_source: How To Use
 
