@@ -86,7 +86,7 @@ From your command line:
 $ git clone https://github.com/ronylucca/ecoleta
 
 # Go into the repository
-$ cd NLW-1.0/backend
+$ cd NLW-1.0/server
 
 # Install dependencies
 $ yarn install
@@ -110,7 +110,7 @@ $ yarn dev
 $ git clone https://github.com/ronylucca/ecoleta
 
 # Go into the repository
-$ cd NLW-1.0/frontent
+$ cd NLW-1.0/web
 
 # Install dependencies
 $ yarn install
