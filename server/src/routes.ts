@@ -1,8 +1,22 @@
-import express, { Router } from 'express';
+import express, { Router, request, response } from 'express';
+import knex from './database/connection';
 
 const routes = express.Router();
 
 
+
+//Items
+
+routes.get('/items', async(request, response) => {
+
+    const items = await knex('items').select('*');
+    return response.json(items);
+
+})
+
+
+
+// Users
 const users = [
     'Rony',
     'Raquel', 
