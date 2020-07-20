@@ -7,52 +7,60 @@ const routes = express.Router();
 
 //Items
 
-routes.get('/items', async(request, response) => {
+routes.get('/items', async (request, response) => {
 
     const items = await knex('items').select('*');
-    return response.json(items);
 
-})
-
-
-
-// Users
-const users = [
-    'Rony',
-    'Raquel', 
-    'Bella',
-    'Charlotte',
-    'Tiffany'
-]
-
-
-routes.get('/users', (request, response) => {
-
-const search = String(request.query.search)
-
-const filteredUsers = search ? users.filter( user => user.includes(search)) : users
-
-return response.json(filteredUsers)
+    const serializedItems = items.map(item => {
+        return {
+            id: item.id,
+            title: item.title,
+            image_url: `http://localhost:3333/uploads/${item.image}`,
+        };
+    });
+    return response.json(serializedItems);
 });
 
-routes.get('/users/:id', (request, response) => {
+routes.post('/points', async(request, response) => {
+    const {
+        name, 
+        email,
+        whatsapp,
+        latitude,
+        longitude,
+        city,
+        uf,
+        items
+    } = request.body;
 
-const id = Number(request.params.id);
+    const trx = await knex.transaction();
 
-const user = users[id];
+    const insertedIds = await trx('points').insert({
+        image: 'image-fake',
+        name,
+        email,
+        whatsapp,
+        latitude,
+        longitude,
+        city,
+        uf
 
-return response.json(user)
-})
+    });
 
-routes.post('/users', (request, response) => {
+    const point_id = insertedIds[0];
 
-const data = request.body
-const user = {
-    name: data.name,
-    email: data.email
-}
+    const pointItems = items.map((item_id: number) => {
 
-return response.json(user);
-})
+        return {
+            item_id,
+            point_id,
+            };
+    })
+
+    await trx('point_items').insert(pointItems);
+
+    return response.json({ sucess: true});
+    
+});
 
 export default routes;
